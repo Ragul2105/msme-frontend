@@ -128,7 +128,7 @@ export default function Predict() {
       formData.append("plant_type", selectedPlant.toLowerCase());
 
       // ✅ Correct backend URL (your current working IP)
-      const apiUrl = "https://msme-backend-3sq3r.ondigitalocean.app";
+      const apiUrl = "https://goldfish-app-kro58.ondigitalocean.app";
       console.log("Using API URL:", apiUrl);
 
       const response = await fetch(`${apiUrl}/api/predict`, {
